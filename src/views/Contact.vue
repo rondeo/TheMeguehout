@@ -1,5 +1,5 @@
 <template>
-  <span class="font-weight-thin display-4">Home</span>
+  <span class="font-weight-thin display-4">Contact</span>
 </template>
 <script>
 export default {
