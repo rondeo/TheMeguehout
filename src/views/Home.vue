@@ -1,5 +1,5 @@
 <template>
-  <span class="font-weight-thin display-4">Home</span>
+  <span class="font-weight-thin display-4">{{ $t('menu.home') }}</span>
 </template>
 <script>
 export default {
@@ -7,6 +7,4 @@ export default {
 };
 </script>
 <style scoped>
-
 </style>
-

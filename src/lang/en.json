@@ -1,0 +1,27 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "submenu_about": {
+    "item1": "who i'm?",
+    "item2": "training",
+    "item3": "carreer path",
+    "item4": "job search"
+  },
+  "submenu_skills": {
+    "item1": "main",
+    "item2": "technical",
+    "item3": "leadership & professional",
+    "item4": "other"
+  },
+  "submenu_projects": {
+    "item1": "All",
+    "item2": "Personal",
+    "item3": "professional",
+    "item4": "volunteering"
+  }
+}

@@ -22,26 +22,7 @@
 <script>
 export default {
   data() {
-    return {
-      submenu_about_: [
-        { title: "who i'm ?", path: "whoiam" }, // ../about/${path}
-        { title: "training", path: "training" }, // ../about/${path}
-        { title: "carreer path", path: "carreerpath" }, // ../about/${path}
-        { title: "job search", path: "jobsearch" } // ../about/${path}
-      ],
-      submenu_skills_: [
-        { title: "main", path: "main" },
-        { title: "technical", path: "technical" },
-        { title: "leadership & professional", path: "leadership" },
-        { title: "other", path: "other" }
-      ],
-      submenu_projects_: [
-        { title: "All", path: "all" },
-        { title: "Personal", path: "personal" },
-        { title: "professional", path: "professional" },
-        { title: "volunteering", path: "volunteering" }
-      ]
-    };
+    return {};
   },
   computed: {
     selectedMenu__() {
@@ -50,14 +31,38 @@ export default {
     submenu__() {
       switch (this.selectedMenu__) {
         case "about":
-          return this.submenu_about_;
+          return this.submenu_about__;
         case "skills":
-          return this.submenu_skills_;
+          return this.submenu_skills__;
         case "projects":
-          return this.submenu_projects_;
+          return this.submenu_projects__;
         default:
           return [];
       }
+    },
+    submenu_about__() {
+      return [
+        { title: this.$t('submenu_about.item1'), path: "whoiam" }, // ../about/${path}
+        { title: this.$t('submenu_about.item2'), path: "training" }, // ../about/${path}
+        { title: this.$t('submenu_about.item3'), path: "carreerpath" }, // ../about/${path}
+        { title: this.$t('submenu_about.item4'), path: "jobsearch" } // ../about/${path}
+      ]
+    },
+    submenu_skills__() {
+      return [
+        { title: this.$t('submenu_skills.item1'), path: "main" },
+        { title: this.$t('submenu_skills.item2'), path: "technical" },
+        { title: this.$t('submenu_skills.item3'), path: "leadership" },
+        { title: this.$t('submenu_skills.item4'), path: "other" }
+      ]
+    },
+    submenu_projects__() {
+      return [
+        { title: this.$t('submenu_projects.item1'), path: "all" },
+        { title: this.$t('submenu_projects.item2'), path: "personal" },
+        { title: this.$t('submenu_projects.item3'), path: "professional" },
+        { title: this.$t('submenu_projects.item4'), path: "volunteering" }
+      ]
     }
   }
 };

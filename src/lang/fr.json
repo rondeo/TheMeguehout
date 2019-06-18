@@ -1,0 +1,27 @@
+{
+  "menu": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contacter"
+  },
+  "submenu_about": {
+    "item1": "qui suis-je?",
+    "item2": "formation",
+    "item3": "parcours professionnel",
+    "item4": "recherche d'emploi"
+  },
+  "submenu_skills": {
+    "item1": "principale",
+    "item2": "technique",
+    "item3": "leadership & professionnel",
+    "item4": "autre"
+  },
+  "submenu_projects": {
+    "item1": "tous",
+    "item2": "Personnel",
+    "item3": "professionnel",
+    "item4": "bénévolat"
+  }
+}
